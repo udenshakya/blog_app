@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    gap: 20px;
+    margin: 20px 10px;
+}
+
+.imgcontainer{
+    flex: 1;
+}
+
+.textcontainer{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.textcontainer h2{
+    font-size: 30px;
+}
+
+
+.img{
+    height: 250px;
+    width: 350px;
+
+}
+

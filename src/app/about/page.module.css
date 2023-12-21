@@ -1,0 +1,38 @@
+.img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgContainer{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.innertext{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgb(29, 43, 15);
+    color: white;
+    padding: 10px;
+}
+
+.contents{
+    display: flex;
+    gap: 150px;
+    text-align: justify;
+
+}
+
+.content{
+    flex: 1;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+}

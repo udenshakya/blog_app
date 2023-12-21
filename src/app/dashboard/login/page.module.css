@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.button{
+    background-color: rgb(54, 135, 54);
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.input{
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: white;
+    font-size: 15px;
+}

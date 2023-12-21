@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.leftcontainer{
+    flex: 1;
+
+}
+
+.post{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 10px;
+}
+
+.formcontainer{
+    flex: 1;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.input{
+    padding: 10px;
+    border: 2px solid gray;
+    color: grey;
+    background-color: transparent;
+    font-size: 20px;
+
+}
+
+.button{
+    background-color: rgb(63, 178, 63);
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+}

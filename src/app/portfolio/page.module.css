@@ -1,0 +1,34 @@
+.title{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.cardscontainer{
+    display: flex;
+
+}
+
+.cardcontainer{
+    position: relative;
+    
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border: 2px solid grey;
+}
+
+.intext{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(70, 136, 70);
+}
+
+.cardcontainer:hover .intext{
+    color: gray;
+}

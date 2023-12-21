@@ -1,0 +1,60 @@
+
+.title{
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    animation: move 2s infinite ease alternate;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(0px) scale(1.03);
+    }
+}
+
+.contents{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.imgcontainer{
+    flex: 1;
+
+}
+
+.formcontainer{
+    flex: 1;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input{
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    border: 2px solid grey;
+}
+
+.button{
+    padding: 15px 20px;
+    background-color: rgb(124, 97, 29);
+    color: white;
+    font-size: 15px;
+    width: max-content;
+    border-radius: 5px;
+    cursor: pointer;
+}
