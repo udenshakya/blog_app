@@ -37,6 +37,7 @@ const BlogPost = async ({params}) => {
           <div className={styles.profile}>
             <Image
               src={data.img}
+              alt="img"
               height={300}
               width={300}
               className={styles.profileimg}
