@@ -5,6 +5,8 @@ import styles from './page.module.css'
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { FcGoogle } from "react-icons/fc";
+
 
 
 const Login = () => {
@@ -42,8 +44,9 @@ const Login = () => {
         <button className={styles.button} >Login</button>
       </form>
 
-      <button onClick={()=>signIn("google")}>Login with Google</button>
-      <Link href='/dashboard/register'>Dont have an account</Link>
+      <button className={styles.googleButton} onClick={()=>signIn("google")}><span className={styles.googleLogo} ><FcGoogle />
+ </span> Login with Google</button>
+      <Link style={{marginTop:"10px"}} href='/dashboard/register'>Dont have an account?</Link>
     </div>
   );
 }

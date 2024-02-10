@@ -25,3 +25,14 @@
     color: white;
     font-size: 15px;
 }
+
+.googleButton{
+    background-color: white;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 10px;
+}
+

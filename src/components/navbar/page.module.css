@@ -16,6 +16,8 @@
     gap: 20px;
 }
 
+
+
 .logout{
     padding: 10px;
     border: none;
@@ -24,3 +26,70 @@
     cursor: pointer;
     color: white;
 }
+
+.hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+    background-color:  rgb(61, 85, 24);
+    outline: none;
+    border: none;
+}
+
+.mobileLinkContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    z-index: 20;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.close{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(61, 85, 24);
+
+}
+
+.mobileLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.mobileLink:hover{
+
+    background-color: rgb(23, 19, 19);
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 992px) {
+   .link{
+    visibility: hidden;
+   }
+   .hamburger{
+    visibility:visible;
+   }
+  }
+
+  @media screen and (min-width: 992px) {
+    .hamburger,.mobileLinkContainer{
+     visibility: hidden;
+    }
+   }

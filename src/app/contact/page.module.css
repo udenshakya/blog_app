@@ -54,7 +54,17 @@
     background-color: rgb(124, 97, 29);
     color: white;
     font-size: 15px;
-    width: max-content;
+    width: 100%;
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 992px) {
+    .contents{
+        flex-direction: column-reverse;
+    }
+
+    .img{
+        height: 200px;
+    }
+  }

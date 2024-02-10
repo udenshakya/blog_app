@@ -32,3 +32,10 @@
 .cardcontainer:hover .intext{
     color: gray;
 }
+
+@media screen and (max-width: 992px) {
+    .cardscontainer{
+        flex-direction: column;
+        width: 200px;
+    }
+  }

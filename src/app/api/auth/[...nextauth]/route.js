@@ -15,7 +15,7 @@ const handler = NextAuth({
         CredentialsProvider({
             id:"credentials",
             name:"Credentials",
-            async authorized(credentials){
+            async authorize(credentials){
                 
                 await connect()
                 try {

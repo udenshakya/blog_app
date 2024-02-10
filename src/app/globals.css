@@ -28,6 +28,12 @@ a {
   justify-content: space-between;
 
 }
+@media screen and (max-width: 700px) {
+  .container{
+    max-width: 600px;
+    padding: 20px;
+  }
+ }
 
 .light{
   background-color: white;
