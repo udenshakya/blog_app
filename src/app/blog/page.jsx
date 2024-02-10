@@ -23,7 +23,7 @@ const Blog = async () => {
       <Link href={`/blog/${item._id}`} key={item._id} >
     <div className={styles.container} >
       <div className={styles.imgcontainer}>
-        <Image src={item.img} height={300} width={300} className={styles.img} />
+        <Image src={item.img} height={300} width={300} alt='image' className={styles.img} />
       </div>
       <div className={styles.textcontainer}>
         <h2>{item.title} </h2>

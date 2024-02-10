@@ -14,7 +14,7 @@ const Category = ({params}) => {
           <button className={styles.button}>See More</button>
         </div>
         <div className={styles.imgcontainer}>
-          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} />
+          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} alt='image' />
         </div>
       </div>
       <div className={styles.contentcontainer}>
@@ -24,7 +24,7 @@ const Category = ({params}) => {
           <button className={styles.button}>See More</button>
         </div>
         <div className={styles.imgcontainer}>
-          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} />
+          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} alt='image' />
         </div>
       </div>
       <div className={styles.contentcontainer}>
@@ -34,7 +34,7 @@ const Category = ({params}) => {
           <button className={styles.button}>See More</button>
         </div>
         <div className={styles.imgcontainer}>
-          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} />
+          <Image src='https://images.pexels.com/photos/18079755/pexels-photo-18079755/free-photo-of-wooden-footpath-and-mountain-behind.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load' className={styles.img} width={300} height={200} alt='image' />
         </div>
       </div>
 

@@ -69,7 +69,7 @@ const Dashboard = () => {
       <div className={styles.leftcontainer}>
         {isLoading?"loading": data?.map((post)=>(
       <div className={styles.post} key={post._id}>
-      <Image src={post.img} height={200} width={200} />
+      <Image src={post.img} height={200} width={200} alt='image' />
         <p>{post.title} </p>
         <p className={styles.delete}  onClick={()=>handleDelete(post._id)}>X</p>
         </div>
@@ -80,7 +80,7 @@ const Dashboard = () => {
           <h1>Add New Post</h1>
           <input type='text' placeholder='Title' className={styles.input}/>
           <input type='text' placeholder='Description' className={styles.input}/>
-          <input type='text' placeholder='Image' className={styles.input}/>
+          <input type='text' placeholder='Paste images from pexels.com' className={styles.input}/>
           <textarea placeholder='Content' cols="30"
             rows="10" className={styles.input}/>
           <button  className={styles.button}>Send</button>

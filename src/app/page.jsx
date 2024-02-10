@@ -12,7 +12,7 @@ export default function Home() {
         <button className={styles.button}>See Our World</button>
       </div>
       <div className={styles.item}>
-      <Image src={Blogging} alt='hero' className={styles.img} />
+      <Image src={Blogging} alt='hero' className={styles.img}  />
       </div>
     </div>
   )
